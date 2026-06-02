@@ -3,7 +3,10 @@ package Day01;
 import java.util.Scanner;
 
 public class BankApplication {
+//    Mini Banking System:-
+
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("1: Create Account");
@@ -101,6 +104,6 @@ public class BankApplication {
         while(ch != 8);
 
 
-        System.out.println("----------Thank you for Mera Bank Application");
+        System.out.println("----------Thank you for Mira Bank Application-------------");
     }
 }
