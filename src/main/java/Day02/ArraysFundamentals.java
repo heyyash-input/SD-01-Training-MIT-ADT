@@ -1,10 +1,17 @@
 package Day02;
 
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArraysFundamentals {
+
     public static void main(String[] args) {
+
+//----------------------------------------------------------------------------------------------------------
+
         Scanner sc = new Scanner(System.in);
+
 //--------------------------------------------------------------------------------------------------------------
         // what is array?
          //array is a collection or fixed sized or static size variable index based data structure
@@ -29,10 +36,19 @@ public class ArraysFundamentals {
 //-------------------------------------------------------------------------------------------------------------
 //        printOdd(sc,arr);
 
-        arraySum(sc,arr);
-        int [] arr2 = {1,2,3,4,5,6};
+//        arraySum(sc,arr);
+        int [] arr2 = {1,2,3,4,5};
         int [] arr3 = {2,3,4,5,6,7};
-        Con(sc,arr2,arr3);
+        int [] arr4= {6,7,8,9,10};
+//        Con(sc,arr2,arr3);
+
+//----------------------------------------------------------------------------------------------------------
+
+        System.out.println(Arrays.toString(methode2Con(sc,arr2 ,arr4)));
+
+        String [] str = {"Yash" , "Raghav" };
+        String  [] str2 = {"Pam" , "Don"};
+
     }
 
 //---------------------------------------------------------------------------------------------------------
@@ -111,6 +127,31 @@ public class ArraysFundamentals {
     }
 
 //-----------------------------------------------------------------------------------------------------------
+
+    public static int [] methode2Con(Scanner sc , int arr2 [] , int arr4 []){
+        int s1 = arr2.length ;
+        int s2 = arr4.length;
+        int s3 = s1 + s2 ;
+
+        int [] arr3  = new int[s3];
+        int index= 0 ;
+        for ( index = 0 ; index < s1 ; index++){
+            arr3[index] = arr2[index];
+        }
+
+        for (int i = 0; i < s2; i++) {
+            arr3[index] = arr4[i];
+            index++;
+        }
+        return  arr3 ;
+    }
+
+//------------------------------------------------------------------------------------------------------------
+//
+//    public static String [] stringCon(Scanner sc , String [] str , String [] str2){
+////        String  s1 = str.;
+//
+//    }
 
 
 }
