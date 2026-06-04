@@ -1,4 +1,4 @@
-package Day04.Constructor.SyntaxAndCalling;
+package Day04.Constructor.SyntaxAndCalling.DateConstruct;
 
 import java.util.Scanner;
 
