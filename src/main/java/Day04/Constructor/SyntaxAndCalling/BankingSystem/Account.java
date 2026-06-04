@@ -23,11 +23,23 @@ public class Account {
 
 //---------------------------------------------------------------------------------------------------------------
 
-    public Account(int id , String nm , double bal){
+    public Account(int actId , String name , double balance){
         System.out.println("----Account Parameter----");
-        actId = id ;
-        name = nm ;
-        balance = bal ;
+
+        //==================================================
+
+        /// This has formed conflict
+//        actId = actId;
+//        name = name ;
+//        balance = balance ;
+
+        //===================================================
+
+        /// above can be removed by 'this' keyword
+        // now data member is in right side and local variable is in left side
+        this.actId = actId ;
+        this.name = name;
+        this.balance = balance;
     }
 
 //---------------------------------------------------------------------------------------------------------------

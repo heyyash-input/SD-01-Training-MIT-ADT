@@ -19,10 +19,7 @@ public class Test_Account {
 
         //Parameter Constructor:-
         System.out.println("---act2 details---");
-        int id = 101 ;
-        String nm = "Sham" ;
-        double bal = 89000;
-        Account act2 = new Account(id , nm , bal);
+        Account act2 = new Account(101, "Yash", 8900);
         act2.displayInfo();
 
 //---------------------------------------------------------------------------------------------------------------
