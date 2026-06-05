@@ -56,8 +56,6 @@ public class Student01 {
 
 //----------------------------------------------------------------------------------------------------------------
 
-//    public void maxMarks
-
     @Override
     public String toString() {
         return "Student01{" +

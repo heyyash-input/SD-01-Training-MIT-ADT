@@ -23,6 +23,7 @@ public class Test_Student {
         System.out.println("2: Update marks ");
         System.out.println("3: Average Marks ");
         System.out.println("4: Display Details ");
+        System.out.println("5: Exit ");
 
         int ch;
 
@@ -83,13 +84,15 @@ public class Test_Student {
                     break;
 
                 case 5:
-
+                    System.out.println("-------Exit the menu-------");
                     break;
                 default:
                     System.out.println("Invalid choice! Please try again.");
             }
         } while (ch != 6);
 
+//--------------------------------------------------------------------------------------------------------------
 
     }
+
 }
