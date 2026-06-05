@@ -27,8 +27,14 @@ public class Manager extends Employee {
 
 //---------------------------------------------------------------------------------------------------------------
 
+    //Overriding
+    // same function name and same signature
+    //possible only in inheritance
     public void incPrint(){
+        super.displayInfo();// using this we can easily call whle child function with parent
         System.out.println("Incentive: " + incen);
     }
+
+//---------------------------------------------------------------------------------------------------------------
 
 }

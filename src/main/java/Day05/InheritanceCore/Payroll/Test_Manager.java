@@ -10,8 +10,8 @@ public class Test_Manager {
         System.out.println("------------------------------------");
         Manager mgr1 = new Manager(103 ,"Yash" ,890000 , 760000);
         mgr1.assignTask();
-        mgr1.displayInfo();
-        mgr1.incPrint();
+//        mgr1.displayInfo();
+        mgr1.incPrint(); //  in Manager function add super.display (of child class) to print everyhting
         System.out.println("-------------END------------");
 
 //---------------------------------------------------------------------------------------------------------------
