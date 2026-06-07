@@ -6,7 +6,7 @@ public class Test_Product {
     public static void main(String[] args) {
 //----------------------------------------------------------------------------------------------------------------
         Scanner sc = new Scanner(System.in);
-        System.out.println("Id name cate: oilsg,rains,other");
+        System.out.println("Id name cate: oils,rains,other");
 //----------------------------------------------------------------------------------------------------------------
         int prdid = sc.nextInt();
         String pName = sc.next();
