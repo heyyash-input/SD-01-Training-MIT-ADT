@@ -1,0 +1,18 @@
+List:
+1:Ordered collection
+2:Works with the index
+3:Can store duplicates
+Implemented by classes: ArrayList , LinkedList .
+
+Set:
+1:UnOrdered Collection
+2:No working with the index
+3:no duplicates :only unique
+implemented by: HashSet
+
+Queue:FIFO
+1:Ordered Collection
+2:Contain Duplicate
+
+Map:work with the key value pair use map
+1:searching more easy with key value pair
