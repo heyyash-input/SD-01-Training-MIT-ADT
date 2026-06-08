@@ -19,6 +19,7 @@ public class Test_Student {
         System.out.println("4:Get by index");
         System.out.println("5:Remove");
         System.out.println("6:Sort");
+        System.out.println("7:Exit");
 
         int ch;
         do {
@@ -49,6 +50,8 @@ public class Test_Student {
                     break;
                 case 6:
                     Collections.sort(names);
+                    break;
+                case 7:
                     break;
                 default:
                     System.out.println("Enter valid options");
