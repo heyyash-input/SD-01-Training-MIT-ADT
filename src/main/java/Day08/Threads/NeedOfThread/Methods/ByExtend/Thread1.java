@@ -1,4 +1,4 @@
-package Day08.Threads.NeedOfThread;
+package Day08.Threads.NeedOfThread.Methods.ByExtend;
 
 public class Thread1 extends Thread{
 //-----------------------------------------------------------------------------------------------------------------
@@ -9,12 +9,11 @@ public class Thread1 extends Thread{
         for (int i = 0; i < 10 ; i++) {
             System.out.println(i);
             try {
-                Thread1.sleep(2000);
+                Thread1.sleep(3000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         }
-
         System.out.println("----Thread1 End here " + Thread.currentThread().getName());
     }
 

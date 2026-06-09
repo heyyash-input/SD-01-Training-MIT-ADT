@@ -1,4 +1,4 @@
-package Day08.Threads.NeedOfThread;
+package Day08.Threads.NeedOfThread.Methods.ByExtend;
 
 public class Test {
     public static void main(String[] args) {
