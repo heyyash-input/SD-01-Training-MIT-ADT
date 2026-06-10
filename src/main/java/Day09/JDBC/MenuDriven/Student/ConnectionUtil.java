@@ -12,7 +12,7 @@ public class ConnectionUtil {
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("----------Driver Loaded Successfully---------");
 
-            Connection con = DriverManager.getConnection("Your_URL","Your_Root","Your_Password");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mit", "root", "Your_Pass");
             System.out.println("-------Connected to DB--------");
             return con ;
         }

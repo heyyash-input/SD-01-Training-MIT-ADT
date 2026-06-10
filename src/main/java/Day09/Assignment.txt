@@ -1,0 +1,18 @@
+Customer Manage:
+*all inputs must be valid: email , pwd must be > 5 , age > 18
+
+Menu: 1:Show All Customers // Select
+      2:Add new Customer  //Insert
+      3:Edit Customer //Update
+      4:Delete Customer // Delete
+      5:Get Customer by id/name/email(choice) --->> customer details must be displayed
+      6:Login
+          Accept email , pwd from user
+          if valid then show details
+          else
+          invalid
+
+Note: Create CustomerUtil class with
+Insert , update , delete , getByEmail , getAllCustomer
+use CustomerUtil methods in tester class
+
