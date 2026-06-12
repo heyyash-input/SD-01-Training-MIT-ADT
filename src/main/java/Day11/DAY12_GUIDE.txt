@@ -1,0 +1,12 @@
+DAY 12 GUIDE - SERVLET DEVELOPMENT USING ECLIPSE
+
+*For Day 12, I switched from IntelliJ IDEA to Eclipse IDE because I started learning Java Servlets
+ and Web Development. Eclipse provides better support for Dynamic Web Projects,
+ Apache Tomcat integration, JSP, and Servlet development.
+
+*Day 12 was developed using Eclipse IDE.
+ The project structure may look different because Eclipse generates additional folders
+ and configuration files for web applications.
+
+*Despite the different structure, the Java concepts and learning progression
+remain part of the same journey.

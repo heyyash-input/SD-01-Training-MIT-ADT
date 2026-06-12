@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: darkgreen;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form action="register" method="post">
+
+        <input type="text" name="name" placeholder="Enter Name" required>
+        <br>
+
+        <input type="text" name="city" placeholder="Enter City" required>
+        <br>
+
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <br>
+
+        <input type="tel" name="contact" placeholder="Enter Contact Number" required>
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+</div>
+
+</body>
+</html>

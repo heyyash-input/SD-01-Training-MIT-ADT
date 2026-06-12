@@ -1,7 +1,17 @@
-webApp
+*webApp:--->
+
 static: Html ( it's markup language ) + CSS (Design) : one way interaction with user
+
 dynamic: Two way interacton: HTML + CSS + Javascript
 
 two way for Dyanamic webApp
+
 Client-side webApp: GUI + Business logic get executed by browser
+
 Server-side webApp
+1:PHP
+2:ASP
+3:ASP.Net:
+4:Servelet+JSP:Java
+
+*html + result ------> Client

@@ -1,4 +1,0 @@
-Product{prdsId=101, name='Pen', quantity=89.0}
-Product{prdsId=102, name='Book', quantity=89.0}
-Product{prdsId=103, name='Chalk', quantity=89.0}
-Product{prdsId=104, name='Pencil', quantity=89.0}
