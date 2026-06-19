@@ -13,11 +13,11 @@ public class Tester_OneToOne {
 		session.beginTransaction();
 
 		// to store employee
-		MyEmployee emp1 = new MyEmployee(102,"Anil", 90000);
+		com.oneToone.MyEmployee emp1 = new com.oneToone.MyEmployee(102,"Anil", 90000);
 
-		EmployeeDetails empDetails1 = new EmployeeDetails("Pune11", "Maha", "xyz@gmail.com");
+		com.oneToone.EmployeeDetails empDetails1 = new com.oneToone.EmployeeDetails(11, "Maha", "xyz@gmail.com" , "maha@gmial.com");
 
-		empDetails1.setEmp(emp1);
+		empDetails1.setEmpid(69);
 
 		session.save(emp1);
 		
