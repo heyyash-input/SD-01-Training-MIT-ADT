@@ -28,12 +28,12 @@ Each milestone is organized into dedicated packages:
 | **Day 12** | **Web Architecture: Servlets** <br> • Transitioning from console apps to enterprise web backends <br> • Understanding the Container-managed Servlet Lifecycle <br> • Handling HTTP requests natively via `doGet()` and `doPost()` protocol methods | ✅ Completed |
 | **Day 13** | **State Preservation & Server Pages** <br> • Managing user state across stateless networks (Session Management) <br> • Integrating dynamic frontend rendering using Java Server Pages (JSP) | ✅ Completed |
 | **Day 14** | **Architectural Patterns** <br> • Decoupling presentation logic from backend rules using MVC Architecture <br> • Consolidating web layers by building a mini MVC web application | ⏳ Pending |
-| **Day 15** | **Object-Relational Mapping (ORM)** <br> • Abstracting raw SQL using Hibernate ORM framework configurations <br> • Setting up mapping schemas using both classic XML metadata and modern Annotations | ⏳ Pending |
-| **Day 16** | **Database Abstraction with HQL** <br> • Performing clean object lifecycle mutations (CRUD Operations) <br> • Querying entities directly using Hibernate Query Language (HQL) | ⏳ Pending |
-| **Day 17** | **Complex Entity Relationships** <br> • Mapping real-world data models: One-to-One, One-to-Many, and Many-to-Many entity associations | ⏳ Pending |
-| **Day 18** | **Enterprise Capstone - Phase I** <br> • Architecting the core database schemas and entity layers for an enterprise-grade application | ⏳ Pending |
-| **Day 19** | **Enterprise Capstone - Phase II** <br> • Binding backend services to interfaces and conducting baseline system reviews | ⏳ Pending |
-| **Day 20** | **Capstone Delivery & Technical Dry-Runs** <br> • Finalizing optimizations, system reviews, and engaging in technical interview prep and mock assessments | ⏳ Pending |
+| **Day 15** | **Object-Relational Mapping (ORM)** <br> • Abstracting raw SQL using Hibernate ORM framework configurations <br> • Setting up mapping schemas using both classic XML metadata and modern Annotations | ✅ Completed |
+| **Day 16** | **Database Abstraction with HQL** <br> • Performing clean object lifecycle mutations (CRUD Operations) <br> • Querying entities directly using Hibernate Query Language (HQL) |✅ Completed |
+| **Day 17** | **Complex Entity Relationships** <br> • Mapping real-world data models: One-to-One, One-to-Many, and Many-to-Many entity associations | ✅ Completed |
+| **Day 18** | **Enterprise Capstone - Phase I** <br> • Architecting the core database schemas and entity layers for an enterprise-grade application | ✅ Completed |
+| **Day 19** | **Enterprise Capstone - Phase II** <br> • Binding backend services to interfaces and conducting baseline system reviews | ✅ Completed |
+| **Day 20** | **Capstone Delivery & Technical Dry-Runs** <br> • Finalizing optimizations, system reviews, and engaging in technical interview prep and mock assessments | ✅ Completed |
 
 ---
 
